@@ -2,10 +2,14 @@
   "name": "react-wrapper",
   "displayName": "React Wrapper",
   "description": "Wrap your React code with these 10 most-used patterns — fast and time-saving.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Titan91",
   "icon": "images/icon.png",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amazingtima/ReactWrapperExtension.git"
+  },
   "engines": {
     "vscode": "^1.125.0"
   },
