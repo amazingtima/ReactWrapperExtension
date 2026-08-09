@@ -1,0 +1,159 @@
+{
+  "name": "react-wrapper",
+  "displayName": "React Wrapper",
+  "description": "Wrap your React code with these 10 most-used patterns — fast and time-saving.",
+  "version": "0.0.1",
+  "publisher": "Titan91",
+  "icon": "images/icon.png",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Other"
+  ],
+  "keywords": [
+    "react",
+    "jsx",
+    "wrapper",
+    "typescript",
+    "snippets"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "react-wrapper.consoleLog",
+        "title": "Console Log",
+        "category": "React Wrapper"
+      },
+      {
+        "command": "react-wrapper.jsxContainer",
+        "title": "JSX Container (div)",
+        "category": "React Wrapper"
+      },
+      {
+        "command": "react-wrapper.jsxCondition",
+        "title": "JSX Condition (&&)",
+        "category": "React Wrapper"
+      },
+      {
+        "command": "react-wrapper.jsxTernary",
+        "title": "JSX Ternary (? :)",
+        "category": "React Wrapper"
+      },
+      {
+        "command": "react-wrapper.jsxFragment",
+        "title": "JSX Fragment (<>...</>)",
+        "category": "React Wrapper"
+      },
+      {
+        "command": "react-wrapper.tryCatch",
+        "title": "Try / Catch Block",
+        "category": "React Wrapper"
+      },
+      {
+        "command": "react-wrapper.useEffect",
+        "title": "React useEffect",
+        "category": "React Wrapper"
+      },
+      {
+        "command": "react-wrapper.asyncHandler",
+        "title": "Async Handler Wrapper",
+        "category": "React Wrapper"
+      },
+      {
+        "command": "react-wrapper.useState",
+        "title": "React useState",
+        "category": "React Wrapper"
+      },
+      {
+        "command": "react-wrapper.jsxMap",
+        "title": "JSX Map (.map)",
+        "category": "React Wrapper"
+      }
+    ],
+    "submenus": [
+      {
+        "id": "reactWrapper.submenu",
+        "label": "React Wrapper"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "submenu": "reactWrapper.submenu",
+          "when": "editorHasSelection",
+          "group": "reactWrapper@1"
+        }
+      ],
+      "reactWrapper.submenu": [
+        {
+          "command": "react-wrapper.consoleLog",
+          "group": "1_wrap@1"
+        },
+        {
+          "command": "react-wrapper.jsxContainer",
+          "group": "1_wrap@2"
+        },
+        {
+          "command": "react-wrapper.jsxCondition",
+          "group": "1_wrap@3"
+        },
+        {
+          "command": "react-wrapper.jsxTernary",
+          "group": "1_wrap@4"
+        },
+        {
+          "command": "react-wrapper.jsxFragment",
+          "group": "1_wrap@5"
+        },
+        {
+          "command": "react-wrapper.tryCatch",
+          "group": "2_logic@1"
+        },
+        {
+          "command": "react-wrapper.useEffect",
+          "group": "2_logic@2"
+        },
+        {
+          "command": "react-wrapper.asyncHandler",
+          "group": "2_logic@3"
+        },
+        {
+          "command": "react-wrapper.useState",
+          "group": "2_logic@4"
+        },
+        {
+          "command": "react-wrapper.jsxMap",
+          "group": "2_logic@5"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.125.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "24.x",
+    "typescript-eslint": "^8.61.1",
+    "eslint": "^10.5.0",
+    "typescript": "^6.0.3",
+    "@vscode/test-cli": "^0.0.15",
+    "@vscode/test-electron": "^3.0.0"
+  },
+  "overrides": {
+    "diff": "^8.0.4",
+    "serialize-javascript": "^7.0.6"
+  }
+}
