@@ -3,4 +3,3 @@ out/
 .vscode-test/
 *.vsix
 .DS_Store
-*.b64.txt

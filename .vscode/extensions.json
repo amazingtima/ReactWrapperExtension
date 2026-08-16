@@ -1,6 +1,5 @@
 {
 	"recommendations": [
-		"dbaeumer.vscode-eslint",
-		"ms-vscode.extension-test-runner"
+		"dbaeumer.vscode-eslint"
 	]
 }
