@@ -2,7 +2,7 @@
   "name": "react-wrapper-extension",
   "displayName": "React Code Wrapper",
   "description": "Wrap your React code with these 10 most-used patterns — fast and time-saving.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "Titan91",
   "icon": "images/icon.png",
   "license": "MIT",

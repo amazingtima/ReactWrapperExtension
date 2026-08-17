@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.3]
+
+- README: текстовое описание вместо картинки (About + How to use)
+
 ## [0.0.2]
 
 - README: абсолютная ссылка на about.png (GitHub), чтобы картинка открывалась в Marketplace
