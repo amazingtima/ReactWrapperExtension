@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="images/about.jpg" alt="React Wrapper" width="800" />
+  <img src="https://github.com/amazingtima/ReactWrapperExtension/blob/main/images/about.jpg?raw=true" alt="React Wrapper" width="800" />
 </p>
