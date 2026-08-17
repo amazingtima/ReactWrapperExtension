@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.4]
+
+- README: убраны Install / Development / License (лишние для Marketplace)
+
 ## [0.0.3]
 
 - README: текстовое описание вместо картинки (About + How to use)
